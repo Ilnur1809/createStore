@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <link rel="stylesheet" href="css/style.min.css?_v=20220421032157"> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper wrapper__container _container">
+		<div class="wrapper__left">
+
+			<div class="wrapper__logo">
+				<div class="icon-menu__body">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<picture>
+					<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.jpg?_v=1650493317090" alt=""></picture>
+			</div>
+			<nav class="wrapper__menu menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="" class="menu__link _icon-home">Главная</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-cart">Мои магазины</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-megaphone">Промоматериалы</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-pie-chart">Статистика</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-wallet">Баланс</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-user">Персональные данные</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-info">FAQ</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-support">Техподдержка</a></li>
+					<li class="menu__item"><a href="" class="menu__link _icon-exit">Выход</a></li>
+				</ul>
+			</nav>
+		</div>
+		<header class="page__header">
+			<div class="header _container">
+				<section class="header__body">
+					<div class="header__main-links main-links">
+						<div class="main-links__link  _icon-arrow">Главная</div>
+						<div class="main-links__link">Мои магазины</div>
+					</div>
+					<div class="header__contacts contacts-header">
+						<a href="" class="contacts-header__message _icon-email">
+							<span></span>
+						</a>
+						<div class="contacts-header__user-profil user-profil">
+							<a href="" class="user-profil__image">
+								<!-- <picture><source srcset="img/header/avatar.webp" type="image/webp"><img src="img/header/avatar.png?_v=1650493317090" alt=""></picture> -->
+								<picture><img src="img/header/avatar.jpg" alt=""></picture>
+							</a>
+							<a href="" class="user-profil__name _text">
+								Ilnur Shakirov
+							</a>
+						</div>
+					</div>
+
+				</section>
+			</div>
+		</header>
+		<main class="page page__create-shop">
+			<section class="create-shop__container">
+				<a data-popup="#callback" href="" class="create-shop__button button">Создать свой магазин</a>
+				<h1 class="create-shop__title _title">
+					Управление магазинами
+				</h1>
+				<div class="create-shop__body">
+					<div class="create-shop__items">
+						<div class="create-shop__column">
+							<div class="create-shop__item create-shop__item_1">№</div>
+							<div class="create-shop__item create-shop__item_2">Название</div>
+							<div class="create-shop__item create-shop__item_3">Адрес</div>
+							<div class="create-shop__item create-shop__item_4">Действие</div>
+						</div>
+						<div class="create-shop__column">
+							<div class="create-shop__item create-shop__item_5">12345</div>
+							<div class="create-shop__item create-shop__item_6">Дипломная работа</div>
+							<div class="create-shop__item create-shop__item_7">http://www.work5.ru/services</div>
+							<div class="create-shop__item create-shop__item_8 item-create">
+								<a href="" class="item-create__button button">Редактировать</a>
+								<a href="" class="item-create__button button button_grey">Редактировать</a>
+							</div>
+						</div>
+						<div class="create-shop__column">
+							<div class="create-shop__item create-shop__item_9">12345</div>
+							<div class="create-shop__item create-shop__item_10">Дипломная работа</div>
+							<div class="create-shop__item create-shop__item_11">http://www.work5.ru/services</div>
+							<div class="create-shop__item create-shop__item_12 item-create">
+								<a href="" class="item-create__button button">Редактировать</a>
+								<a href="" class="item-create__button button button_grey">Редактировать</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__header header-popup">
+					<div class="header-popup__title _title">
+						Создать магазин
+					</div>
+					<button data-close type="button" class="popup__close header-popup__close">
+						<img src="img/popup/exit.svg?_v=1650493317090" alt="">
+					</button>
+				</div>
+
+
+				<section class="popup__page">
+					<div class="popup__container">
+						<div class="popup__items">
+							<div data-spollers="300,min" class="items-popup__item item-popup">
+								<h3 class="item-popup__label _text">Шаблон</h3>
+								<button type="button" data-spoller class="_icon-arrow item-popup__icon item-popup__input">
+									Стандартный
+								</button>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 1</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 2</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 3</a>
+									</li>
+								</ul>
+							</div>
+							<div data-spollers="300,min" class="items-popup__item item-popup">
+								<h3 class="item-popup__label _text">Цветовая схема</h3>
+								<button type="button" data-spoller class="_icon-arrow item-popup__icon item-popup__input">
+									Классическая
+								</button>
+								<ul class="menu__sub-list">
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 1</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 2</a>
+									</li>
+									<li class="menu__sub-item">
+										<a href="" class="menu__sub-link">Product 3</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+						<h3 class="item-popup__label _text">Шаблон</h3>
+						<form data-message="subscribe" data-test action="#" class="subscribe__form">
+							<input autocomplete="off" type="text" placeholder="Например: ivangrozniy" class="subscribe__input">
+							<button type="submit" class="subscribe__button">.work5.ru</button>
+						</form>
+						<div class="popup__text">
+							<img src="img/popup/error.svg?_v=1650493317090" alt="">
+							<p>
+								В названии домена разрешены латиница и “-”, запрещается использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее по
+								<a href="">ссылке</a>
+							</p>
+						</div>
+						<div class="popup__buttons">
+							<a href="" class="popup__button button">Отмена</a>
+							<a href="" class="popup__button button button_grey">Создать</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220421032157"></script>
+</body>
+
+</html>
